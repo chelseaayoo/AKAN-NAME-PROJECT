@@ -24,13 +24,18 @@
             <label for="password">Password</label>
             <input type="password" name="password" id="password" required placeholder="your password for this site" maxlength="150"><br><br>
             <label for="cc">Century</label>
-            <input type="number" name="Century" id="cc" required placeholder="e.g born 1958 century=19" maxlength="150"><br><br>
+            <input type="number" name="Century" id="cc" required min="19" max="21"><br><br>
             <label for="yy">Year</label>
-            <input type="number" name="Year" id="yy" required placeholder="your birth year" min="1910" max="2021"><br><br>
+            <input type="number" name="Year" id="yy" required placeholder="birth year" min="1910" max="2021"><br><br>
             <label for="mm">Month</label>
-            <input type="number" name="Month" id="mm" required placeholder="your birth month" min="1" max="12"><br><br>
+            <input type="number" name="Month" id="mm" required min="1" max="12"><br><br>
             <label for="dd">Day</label>
-            <input type="number" name="Day" id="dd" required placeholder="your birth date" min="1" max="31"><br><br>
+            <input type="number" name="Day" id="dd" required placeholder="date" min="1" max="31"><br><br>
+            Gender <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male"><br><br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"><br><br>
         </form>
     </div>
     
