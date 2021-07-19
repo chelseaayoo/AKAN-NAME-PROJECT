@@ -1,4 +1,4 @@
-# {AKAN NAMES}
+# AKAN NAMES
 #### {The application calculates the day of the week the user was born then outputs their Akan Name depending on their gender.}, {18th July 2021}
 #### By **{ONYANGO ANIPHER CHELSEA AYOO}**
 ## Description
